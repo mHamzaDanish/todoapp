@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="input_text">
+            <h1>Todo App</h1>
+            <input type="text" id="input" ><br>
+            <button type="submit" onclick="additem()" class="submit">Add</button>
+            <button type="submit" onclick="clearallitem()" class="submit">Clear ALl</button>
+        </div>
+
+        <div id="todoitem">
+            <ul id="todolist"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #393e46;
+}
+.container
+{
+    text-align: center;
+    margin: 25vh auto;
+    background-color: #222831;
+    width: 70vh;  
+    padding: 30px;
+    color: white;
+}
+
+#input
+{
+    margin-top: 20px;
+    height: 5vh;
+    width: 50vh;
+    border: none;
+    border-bottom: 2px solid #6f4a8e;
+    background-color: #222831;
+    color: white;
+}
+.submit{
+    width: 15vh;
+    height: 5vh;
+    margin-top: 20px;
+    color:white;
+    background-color: #00adb5;
+}
+
+.btn
+{
+    
+    background-color: #00adb5;
+    color: white;
+    margin-left: 10px;
+    width: 12vh;
+    height: 5vh;
+    margin-top: 20px;
+    
+
+}
+
+#todoitem li{
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style: none;
+ 
+}
+
+.submit:hover{
+    background-color:#4c6983 ;
+}
